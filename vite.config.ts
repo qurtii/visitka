@@ -5,4 +5,8 @@ import react from '@vitejs/plugin-react-swc'
 export default defineConfig({
   base: '/visitka/',
   plugins: [react()],
-})
+  build: {
+    outDir: 'docs', // Для GitHub Pages
+    emptyOutDir: true
+  }
+});

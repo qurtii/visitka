@@ -8,7 +8,7 @@ import { Change } from './pages/change/Change.tsx';
 function App() {
 
   return (
-    <BrowserRouter>
+    <BrowserRouter basename='/visitka'>
       <Routes>
         <Route path="/" element={<Home />}/>
         <Route path="/change" element={ <Change />} />

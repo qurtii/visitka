@@ -16,7 +16,7 @@ export function ContentBox(){
                 <img src={avatar} alt="avatar" className={styles.contentbox__avatar} />
                 <div className={styles.contentbox__textblock}>
                     <h1 className={styles.contentbox__textblock_title}>Qurti</h1>
-                    <p className={styles.contentbox__textblock_subtitle}>I can't find it</p>
+                    <p className={styles.contentbox__textblock_subtitle}>eblan and not only</p>
                 </div>
                 <div className={styles.contentbox__linkblock}>
                     <h2 className={styles.contentbox__linkblock_title}>My links</h2>
